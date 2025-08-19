@@ -1,0 +1,8 @@
+{
+    "label": "Exia Dashboard",
+    "position": 2,
+    "link": {
+        "type": "generated-index",
+        "description": "Explorez les fonctionnalités du tableau de bord Exia pour une gestion efficace de vos bots et outils."
+    }
+}
