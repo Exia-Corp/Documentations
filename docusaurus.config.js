@@ -75,23 +75,28 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/exia-social-card.jpg',
       navbar: {
         title: 'Exia Documentation',
         logo: {
           alt: 'Exia Logo',
-          src: 'img/logo.svg',
+          src: 'img/exia-documentation-logo.svg',
         },
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'dashSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Dashboard',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/Exia-FR/exia',
+            type: 'docSidebar',
+            sidebarId: 'botsSidebar',
+            position: 'left',
+            label: 'Exia Perso',
+          },
+          {
+            href: 'https://github.com/Exia-Corp/',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,19 +106,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Community',
+            title: 'Communauté',
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://discordapp.com/invite/2S8bMnWjtU',
               },
               {
                 label: 'Instagram',
-                href: 'https://www.instagram.com/docusaurus/',
+                href: 'https://www.instagram.com/exiacorp/',
+              },
+              {
+                label: 'TikTok',
+                href: 'https://www.tiktok.com/@exiacorp',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://www.youtube.com/exiacorp',
               }
             ],
           },
@@ -127,9 +136,30 @@ const config = {
               {
                 label: 'Monitoring',
                 href: 'https://status.exia.site'
+              },
+              {
+                label: 'Vitrine',
+                href: 'https://exia.site'
               }
             ]
           },
+          {
+            title: 'Légal',
+            items: [
+              {
+                label: 'Condition général d\'utilisation',
+                href: 'https://cgu.exia.site'
+              },
+              {
+                label: 'Condition général de vente',
+                href: 'https://cgv.exia.site'
+              },
+              {
+                label: 'Politique de confidentialité',
+                href: 'https://pdc.exia.site'
+              }
+            ]
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Exia. Built with ❤️ by Docusaurus.`,
       },
