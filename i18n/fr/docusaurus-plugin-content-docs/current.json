@@ -1,0 +1,26 @@
+{
+  "version.label": {
+    "message": "Suivant",
+    "description": "The label for version current"
+  },
+  "sidebar.introSidebar.category.Achat et Renouvellement ": {
+    "message": "Achat et Renouvellement ",
+    "description": "The label for category Achat et Renouvellement  in sidebar introSidebar"
+  },
+  "sidebar.introSidebar.category.Achat et Renouvellement .link.generated-index.description": {
+    "message": "Explorez les fonctionnalités du tableau de bord Exia pour une gestion efficace de vos bots et outils.",
+    "description": "The generated-index page description for category Achat et Renouvellement  in sidebar introSidebar"
+  },
+  "sidebar.botsSidebar.category.Exia Economy": {
+    "message": "Exia Economy",
+    "description": "The label for category Exia Economy in sidebar botsSidebar"
+  },
+  "sidebar.botsSidebar.category.Exia Gestion": {
+    "message": "Exia Gestion",
+    "description": "The label for category Exia Gestion in sidebar botsSidebar"
+  },
+  "sidebar.botsSidebar.category.Exia Secure": {
+    "message": "Exia Secure",
+    "description": "The label for category Exia Secure in sidebar botsSidebar"
+  }
+}
